@@ -26,7 +26,8 @@
     color: lighten($text-main, 25%);
 }
 
-.link:hover {
+.link:hover,
+.active-link {
     color: $text-main;
 }
 

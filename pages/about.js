@@ -8,7 +8,7 @@ export default function About() {
     return (
         <div>
             <Header siteTitle="David Learner - About" />
-            <Navbar />
+            <Navbar currentPage="About" />
             <main className={styles.main}>
                 <h1 className={styles.title}>About</h1>
 

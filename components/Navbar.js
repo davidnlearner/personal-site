@@ -4,22 +4,41 @@ import useMediaQuery from "./utils/useMediaQuery";
 import styles from "../styles/Navbar.module.scss";
 import burgerStyles from "../styles/burgerMenu";
 
-const Navbar = () => {
+const Navbar = ({ currentPage = "" }) => {
     const isBreakpoint = useMediaQuery(768);
 
     const renderLinks = () => {
         return (
             <div className={styles["link-box"]}>
                 <Link href="/about">
-                    <a className={styles.link}>About</a>
+                    <a
+                        className={`${styles.link} ${
+                            currentPage === "About" && styles["active-link"]
+                        }`}
+                    >
+                        About
+                    </a>
                 </Link>
 
                 <Link href="/projects">
-                    <a className={styles.link}>Projects</a>
+                    <a
+                        className={`${styles.link} ${
+                            currentPage === "Projects" && styles["active-link"]
+                        }`}
+                    >
+                        Projects
+                    </a>
                 </Link>
 
                 <Link href="/woodworking">
-                    <a className={styles.link}>Woodworking</a>
+                    <a
+                        className={`${styles.link} ${
+                            currentPage === "Woodworking" &&
+                            styles["active-link"]
+                        }`}
+                    >
+                        Woodworking
+                    </a>
                 </Link>
             </div>
         );

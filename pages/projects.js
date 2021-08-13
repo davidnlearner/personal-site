@@ -8,7 +8,7 @@ export default function Projects() {
     return (
         <div>
             <Header siteTitle="David Learner - Projects" />
-            <Navbar />
+            <Navbar currentPage="Projects" />
 
             <main className={styles.main}>
                 <h1 className={styles.title}>Projects</h1>

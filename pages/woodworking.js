@@ -8,7 +8,7 @@ export default function Woodworking() {
     return (
         <div>
             <Header siteTitle="David Learner - Woodworking" />
-            <Navbar />
+            <Navbar currentPage="Woodworking" />
 
             <main className={styles.main}>
                 <h1 className={styles.title}>Woodworking</h1>
