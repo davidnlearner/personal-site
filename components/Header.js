@@ -13,6 +13,7 @@ const Header = ({
                 content="width=device-width, initial-scale=1, shrink-to-fit=no"
             />
             <meta name="theme-color" content="#f3f3f3" />
+            <link rel="shortcut icon" href="public/favicon.ico" />
 
             <title>{siteTitle}</title>
             <meta name="title" content={siteTitle} />
@@ -30,7 +31,7 @@ const Header = ({
             <link
                 rel="preconnect"
                 href="https://fonts.gstatic.com"
-                crossOrigin
+                crossOrigin="true"
             />
             <link
                 href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap"
