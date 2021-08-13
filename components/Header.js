@@ -13,7 +13,6 @@ const Header = ({
                 content="width=device-width, initial-scale=1, shrink-to-fit=no"
             />
             <meta name="theme-color" content="#f3f3f3" />
-            <link rel="shortcut icon" href="public/favicon.ico" />
 
             <title>{siteTitle}</title>
             <meta name="title" content={siteTitle} />

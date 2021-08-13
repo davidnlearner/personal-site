@@ -1,3 +1,5 @@
+@import "./settings.scss";
+
 .navbar {
     position: absolute;
     display: flex;
@@ -16,16 +18,16 @@
 }
 
 .home-link {
-    font-size: 1.5rem;
+    font-size: $font-lg;
 }
 
 .link {
-    font-size: 1rem;
-    color: #aaa;
+    font-size: $font-md;
+    color: lighten($text-main, 25%);
 }
 
 .link:hover {
-    color: #333333;
+    color: $text-main;
 }
 
 .link-box {
@@ -36,17 +38,23 @@
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        display: block;
+        padding: 0;
+        height: 3rem;
+    }
+
+    .home-link {
+        padding: 0.75rem;
     }
 
     .link {
         display: block;
-        font-size: 1.5rem;
+        font-size: $font-lg;
         padding-bottom: 0.75rem;
         margin-right: 1.5rem;
+        color: $background;
     }
 
     .link:hover {
-        color: whitesmoke;
+        color: $text-highlight;
     }
 }
