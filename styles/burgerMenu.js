@@ -1,16 +1,21 @@
+const textMain = "hsl(208, 47%, 12%)";
+const textHighlight = "hsl(225, 29%, 11%)";
+const background = "hsl(204, 67%, 92%)";
+const backgroundDark = "hsl(204, 56%, 83%)";
+
 const styles = {
     bmBurgerButton: {
-        position: "fixed",
+        position: "absolute",
         width: "1.5rem",
         height: "1.5rem",
         right: "1.5rem",
         top: ".75rem",
     },
     bmBurgerBars: {
-        background: "#373a47",
+        background: textMain,
     },
     bmBurgerBarsHover: {
-        background: "#a90000",
+        background: textHighlight,
     },
     bmCrossButton: {
         height: "24px",
@@ -24,7 +29,7 @@ const styles = {
         height: "100%",
     },
     bmMenu: {
-        background: "#373a47",
+        background: textMain,
         padding: "2.5em 1.5em 0",
         fontSize: "1.15em",
     },
