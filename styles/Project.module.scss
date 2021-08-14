@@ -1,0 +1,16 @@
+@import "./settings.scss";
+
+.image-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1fr, 6);
+    grid-template-areas: "";
+}
+
+.image-title {
+}
+
+.image {
+}
+
+.image-description {
+}

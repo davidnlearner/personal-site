@@ -2,16 +2,16 @@
 $text-main: hsla(355, 18%, 12%, 1);
 $text-highlight: rgb(136, 119, 122);
 $background: rgb(235, 221, 213);
+$background-dark: darken($background, 10%);
 
 $prussian-blue: hsla(205, 63%, 18%, 1);
-$rust: hsla(18, 64%, 43%, 1);
-$persian-orange: hsla(24, 72%, 60%, 1);
-$apricot: hsla(22, 71%, 80%, 1);
 $raisin-black-2: hsla(224, 18%, 12%, 1);
 
 /* Font sizes */
 $font-xl: 3rem;
 $font-lg: 1.5rem;
-$font-md: 1rem;
-$font-sm: 0.9rem;
+$font-md: 1.1rem;
+$font-sm: 1rem;
 $font-xs: 0.8rem;
+
+$mobile-breakpoint: 768px;

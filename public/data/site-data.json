@@ -1,0 +1,10 @@
+{
+    "projects": [
+        {
+            "imageSrc": "/profile-pic1.jpg",
+            "title": "Example",
+            "description": "this is an example",
+            "projectURL": "www.david-learner.com"
+        }
+    ]
+}

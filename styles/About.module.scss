@@ -1,0 +1,32 @@
+@import "./settings.scss";
+
+.profile-layout {
+    display: flex;
+    width: 100%;
+}
+
+.profile-pic {
+    max-height: 50rem;
+    max-width: 50%;
+}
+
+.bio-text {
+    color: $text-main;
+    background-color: $background-dark;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: $mobile-breakpoint) {
+    .profile-layout {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .bio-text {
+        padding: 0;
+        margin: 1rem 0 0;
+        background-color: unset;
+    }
+}
