@@ -53,7 +53,7 @@
         font-size: $font-lg;
         padding-bottom: 0.75rem;
         margin-right: 1.5rem;
-        color: $background-dark;
+        color: darken($background-dark, 10%);
     }
 
     .link:hover {
