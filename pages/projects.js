@@ -5,8 +5,6 @@ import styles from "../styles/Project.module.scss";
 import siteData from "../public/data/site-data.json";
 
 export default function Projects() {
-    const addProjects = () => {};
-
     return (
         <Page title="Projects">
             {siteData.codeProjects.map((project) => (

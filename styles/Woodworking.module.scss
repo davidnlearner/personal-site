@@ -1,0 +1,15 @@
+@import "./settings.scss";
+
+.project-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wood-project {
+    width: 30%;
+}
+
+.project-box :nth-child(5n + 4),
+.project-box :nth-child(5n + 0) {
+    width: 50%;
+}

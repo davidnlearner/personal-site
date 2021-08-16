@@ -15,7 +15,7 @@ const Project = ({ imageSrc, title, description, projectURL }) => {
                         layout="intrinsic"
                         className={styles.image}
                         src={imageSrc}
-                        alt="Picture of the author"
+                        alt="project picture"
                     />
                 </Link>
             </div>

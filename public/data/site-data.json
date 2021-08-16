@@ -21,11 +21,44 @@
     ],
     "woodProjects": [
         {
-            "imageSrc": "/profile-pic1.jpg",
-            "title": "Example",
-            "description": "this is an example",
-            "projectURL": "www.david-learner.com"
+            "title": "Bedside Table",
+            "imageSrc": "/data/woodworking-images/bedsidetable.jpg",
+            "description": "Cherry Bedside Table"
+        },
+        {
+            "title": "Bench",
+            "imageSrc": "/data/woodworking-images/bench.jpg",
+            "description": "White Oak Park Bench"
+        },
+        {
+            "title": "Buffet Table",
+            "imageSrc": "/data/woodworking-images/buffettable.jpg",
+            "description": "Cherry Buffet Table inlaid with Leopard Wood and Maple"
+        },
+        {
+            "title": "Bowls",
+            "imageSrc": "/data/woodworking-images/bowls.jpg",
+            "description": "Cherry, Walnut, and Ash bowls"
+        },
+        {
+            "title": "End Table",
+            "imageSrc": "/data/woodworking-images/endtable.jpg",
+            "description": "Black Oak End Table"
+        },
+        {
+            "title": "Side Table",
+            "imageSrc": "/data/woodworking-images/sidetable.jpg",
+            "description": "White Oak Side Table with Black Walnut panels and drawer"
+        },
+        {
+            "title": "Rocking Chair",
+            "imageSrc": "/data/woodworking-images/rockingchair.jpg",
+            "description": "Red Oak Rocking Chair"
+        },
+        {
+            "title": "Side Table 2",
+            "imageSrc": "/data/woodworking-images/sidetable2.jpg",
+            "description": "Red Oak Side Table with Iron Oxide treated White Oak panels"
         }
-    ],
-    "bioText": ""
+    ]
 }
