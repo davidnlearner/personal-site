@@ -7,9 +7,7 @@ const WoodProject = ({ title, imageSrc, description }) => {
         <div className={styles["project-wrapper"]}>
             <div className={styles["image-wrapper"]}>
                 <Image
-                    width={300}
-                    height={200}
-                    layout="intrinsic"
+                    layout="fixed"
                     className={styles.image}
                     src={imageSrc}
                     alt="project picture"

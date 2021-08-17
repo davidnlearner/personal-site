@@ -17,12 +17,13 @@ export default function About() {
     return (
         <Page title="About">
             <div className={styles["profile-layout"]}>
-                <Image
-                    layout="intrinsic"
-                    src={profilePic}
-                    alt="profile-pic"
-                    className={styles["profile-pic"]}
-                />
+                <div className={styles["profile-pic"]}>
+                    <Image
+                        layout="intrinsic"
+                        src={profilePic}
+                        alt="profile-pic"
+                    />
+                </div>
                 <p className={styles["bio-text"]}>{bioText}</p>
             </div>
         </Page>
