@@ -6,10 +6,12 @@ import siteData from "../public/data/site-data.json";
 
 export default function Projects() {
     return (
-        <Page title="Projects">
-            {siteData.codeProjects.map((project) => (
-                <Project {...project} key={project.title} />
-            ))}
+        <Page title="Projects" sidePadding={false}>
+            <div className={styles["projects-container"]}>
+                {siteData.codeProjects.map((project) => (
+                    <Project {...project} key={project.title} />
+                ))}
+            </div>
         </Page>
     );
 }

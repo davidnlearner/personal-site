@@ -6,9 +6,9 @@
     justify-content: space-between;
     top: 0;
     width: 100%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+    border-bottom: 1px solid darken($background-darker, 50%);
     padding: 0.75rem 1rem;
-    background-color: $background-dark;
+    background-color: $background-darker;
 }
 
 .home-link,
@@ -24,7 +24,7 @@
 
 .link {
     font-size: $font-md;
-    color: lighten($text-main, 25%);
+    color: lighten($text-main, 15%);
 }
 
 .link:hover,
@@ -53,7 +53,7 @@
         font-size: $font-lg;
         padding-bottom: 0.75rem;
         margin-right: 1.5rem;
-        color: darken($background-dark, 10%);
+        color: darken($background-darker, 10%);
     }
 
     .link:hover {

@@ -6,6 +6,11 @@
     grid-template-areas:
         "title ."
         "image description";
+    padding: 0 10% 2rem;
+}
+
+.projects-container .project-wrapper:nth-child(odd) {
+    background-color: $background-dark;
 }
 
 .image-wrapper {
@@ -16,13 +21,11 @@
 
 .image-title {
     grid-area: title;
-    margin-left: 2rem;
     font-size: $font-lg;
 }
 
 .image-description {
     grid-area: description;
-    background-color: $background-dark;
     margin: 0 0.5rem;
     padding: 1rem;
     line-height: 1.5;
