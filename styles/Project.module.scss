@@ -2,10 +2,10 @@
 
 .project-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "title . ."
-        "image image description";
+        "title ."
+        "image description";
 }
 
 .image-wrapper {
