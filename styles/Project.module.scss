@@ -24,10 +24,44 @@
     font-size: $font-lg;
 }
 
-.image-description {
+.image-description-box {
     grid-area: description;
-    margin: 0 0.5rem;
     padding: 1rem;
+}
+
+.image-description {
+    margin: 0 0.5rem 1rem;
     line-height: 1.5;
     border-radius: 10px;
+    font-size: $font-md;
+}
+
+.social-icon {
+    max-height: 30px;
+    max-width: 30px;
+    margin: 4px;
+}
+
+@media only screen and (max-width: $mobile-breakpoint) {
+    .project-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "title"
+            "image"
+            "description";
+    }
+
+    .image-description-box {
+        padding: 0;
+    }
+
+    .image-description {
+        margin-top: 1rem;
+        font-size: $font-sm;
+    }
+
+    .social-icon-box {
+        width: 100%;
+        text-align: center;
+    }
 }

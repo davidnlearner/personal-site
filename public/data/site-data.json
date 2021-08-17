@@ -3,20 +3,23 @@
         {
             "imageSrc": "/data/project-images/codenames.jpg",
             "title": "Codenames",
-            "description": "An online multiplayer version of the board game Codenames, built with Node.js/Express.js on the backend, a MongoDB database and HTML/CSS/Javascript on the frontend. Github repo lives here: https://github.com/davidnlearner/codenames",
-            "projectURL": "http://dlearner-codenames.herokuapp.com/"
+            "description": "An online multiplayer version of the board game Codenames, built with Node.js/Express.js on the backend, a MongoDB database and HTML, CSS, and Javascript on the frontend.",
+            "projectURL": "http://dlearner-codenames.herokuapp.com/",
+            "githubURL": "https://github.com/davidnlearner/codenames"
         },
         {
             "imageSrc": "/data/project-images/fractal.jpg",
             "title": "Fractal Generator",
-            "description": "A webapp that draws fractals, which users can manipulate through various attributes. Programmed with Javascript, HTML Canvas, and React.js. Github repo lives here: https://github.com/davidnlearner/fractal-visualizer",
-            "projectURL": "https://fractal-visualizer.vercel.app/"
+            "description": "A webapp that draws fractals, which users can manipulate through various attributes. Programmed with Javascript, HTML Canvas, and React.js.",
+            "projectURL": "https://fractal-visualizer.vercel.app/",
+            "githubURL": "https://github.com/davidnlearner/fractal-visualizer"
         },
         {
             "imageSrc": "/data/project-images/weatherApp.jpg",
             "title": "Weather App",
-            "description": "Basic Weather App made using Node.js/Express.js and using data from the WeatherStack and Mapbox APIs",
-            "projectURL": "https://dlearner-weather-application.herokuapp.com/"
+            "description": "Basic Weather App made using Node.js/Express.js and using data from the WeatherStack and Mapbox APIs.",
+            "projectURL": "https://dlearner-weather-application.herokuapp.com/",
+            "githubURL": "https://github.com/davidnlearner/node-course-weather-app"
         }
     ],
     "woodProjects": [
