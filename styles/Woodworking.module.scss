@@ -1,8 +1,16 @@
 @import "./settings.scss";
 
 .project-box {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    width: 90%;
+    grid-gap: 5px;
+    margin: auto;
+}
+
+.image-wrapper {
+    text-align: center;
 }
 
 .wood-project {

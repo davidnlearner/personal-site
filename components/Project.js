@@ -9,7 +9,12 @@ const Project = ({ imageSrc, title, description, projectURL, githubURL }) => {
         <div className={styles["project-wrapper"]}>
             <h2 className={styles["image-title"]}>{title}</h2>
             <div className={styles["image-wrapper"]}>
-                <Link href={projectURL} passHref={true}>
+                <a
+                    href={projectURL}
+                    passHref={true}
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <Image
                         width={600}
                         height={400}
@@ -18,7 +23,7 @@ const Project = ({ imageSrc, title, description, projectURL, githubURL }) => {
                         src={imageSrc}
                         alt="project picture"
                     />
-                </Link>
+                </a>
             </div>
             <div className={styles["image-description-box"]}>
                 <p className={styles["image-description"]}>{description}</p>

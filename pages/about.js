@@ -19,6 +19,7 @@ export default function About() {
             <div className={styles["profile-layout"]}>
                 <div className={styles["profile-pic"]}>
                     <Image
+                        priority={true}
                         layout="intrinsic"
                         src={profilePic}
                         alt="profile-pic"

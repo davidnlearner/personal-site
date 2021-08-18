@@ -24,44 +24,63 @@
     ],
     "woodProjects": [
         {
-            "title": "Bedside Table",
-            "imageSrc": "/data/woodworking-images/bedsidetable.jpg",
-            "description": "Cherry Bedside Table"
-        },
-        {
-            "title": "Bench",
-            "imageSrc": "/data/woodworking-images/bench.jpg",
-            "description": "White Oak Park Bench"
+            "title": "Rocking Chair",
+            "src": "/data/woodworking-images/rockingchair.jpg",
+            "caption": "Red Oak Rocking Chair",
+            "cols": 3,
+            "rows": 4
         },
         {
             "title": "Buffet Table",
-            "imageSrc": "/data/woodworking-images/buffettable.jpg",
-            "description": "Cherry Buffet Table inlaid with Leopard Wood and Maple"
+            "src": "/data/woodworking-images/buffettable.jpg",
+            "caption": "Cherry Buffet Table inlaid with Leopard Wood and Maple",
+            "cols": 4,
+            "rows": 3
         },
         {
-            "title": "Bowls",
-            "imageSrc": "/data/woodworking-images/bowls.jpg",
-            "description": "Cherry, Walnut, and Ash bowls"
+            "title": "Bedside Table",
+            "src": "/data/woodworking-images/bedsidetable.jpg",
+            "caption": "Cherry Bedside Table",
+            "cols": 3,
+            "rows": 2
         },
         {
             "title": "End Table",
-            "imageSrc": "/data/woodworking-images/endtable.jpg",
-            "description": "Black Oak End Table"
+            "src": "/data/woodworking-images/endtable.jpg",
+            "caption": "Black Oak End Table",
+            "cols": 2,
+            "rows": 2
+        },
+
+        {
+            "title": "Bench",
+            "src": "/data/woodworking-images/bench.jpg",
+            "caption": "White Oak Park Bench",
+            "cols": 3,
+            "rows": 2
+        },
+
+        {
+            "title": "Bowls",
+            "src": "/data/woodworking-images/bowls.jpg",
+            "caption": "Cherry, Walnut, and Ash bowls",
+            "cols": 3,
+            "rows": 2
         },
         {
             "title": "Side Table",
-            "imageSrc": "/data/woodworking-images/sidetable.jpg",
-            "description": "White Oak Side Table with Black Walnut panels and drawer"
+            "src": "/data/woodworking-images/sidetable.jpg",
+            "caption": "White Oak Side Table with Black Walnut panels and drawer",
+            "cols": 3,
+            "rows": 4
         },
-        {
-            "title": "Rocking Chair",
-            "imageSrc": "/data/woodworking-images/rockingchair.jpg",
-            "description": "Red Oak Rocking Chair"
-        },
+
         {
             "title": "Side Table 2",
-            "imageSrc": "/data/woodworking-images/sidetable2.jpg",
-            "description": "Red Oak Side Table with Iron Oxide treated White Oak panels"
+            "src": "/data/woodworking-images/sidetable2.jpg",
+            "caption": "Red Oak Side Table with Iron Oxide treated White Oak panels",
+            "cols": 4,
+            "rows": 3
         }
     ]
 }
