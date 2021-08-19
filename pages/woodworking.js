@@ -1,75 +1,81 @@
 /* eslint-disable @next/next/no-img-element */
 import Page from "../components/Page";
-import WoodProject from "../components/WoodProject";
 import siteData from "../public/data/site-data.json";
 import { SRLWrapper } from "simple-react-lightbox";
-import styles from "../styles/Woodworking.module.scss";
-import image from "next/image";
 
-import { ImageList, ImageListItem } from "@material-ui/core";
+import styles from "../styles/Woodworking.module.scss";
+import useMediaQuery from "../components/utils/useMediaQuery";
+
+const renderGalleryImage = (projectData) => {
+    return (
+        <div className={styles["image-wrapper"]} key={projectData.title}>
+            <img
+                className={styles["gallery-image"]}
+                alt={projectData.caption}
+                {...projectData}
+            />
+            <div className={styles["photo-caption"]}>
+                <div className={styles["caption-text"]}>
+                    {projectData.caption}
+                </div>
+            </div>
+        </div>
+    );
+};
+
+const renderGalleryRow = (
+    projects,
+    startIndex,
+    endIndex,
+    gridTemplateColumns
+) => {
+    return (
+        <div
+            className={`${styles["gallery-row"]}`}
+            style={{ gridTemplateColumns }}
+            key={`${startIndex}-${endIndex}`}
+        >
+            {projects
+                .slice(startIndex, endIndex)
+                .map((project) => renderGalleryImage(project))}
+        </div>
+    );
+};
 
 export default function Woodworking() {
-    const images = siteData.woodProjects.map((image) => ({
-        ...image,
-        src: "https://i.pcmag.com/imagery/reviews/03aizylUVApdyLAIku1AvRV-39.1605559903.fit_scale.size_760x427.png",
-    }));
+    const oneColBreakpoint = useMediaQuery(768);
+    // const twoColBreakpoint = useMediaQuery(1000);
+
+    const projects = siteData.woodProjects;
+
+    //Must be changed if adding more projects
+    const templateRows = [
+        { startIndex: 0, endIndex: 2, gridTemplateColumns: "6fr 10fr" },
+        { startIndex: 2, endIndex: 5, gridTemplateColumns: "4fr 4fr 6fr" },
+        { startIndex: 5, endIndex: 8, gridTemplateColumns: "6fr 3fr 4fr" },
+    ];
 
     return (
         <Page title="Woodworking">
             <SRLWrapper>
-                <ImageList
-                    sx={{ width: 500, height: 400 }}
-                    cols={3}
-                    rowHeight={400}
-                >
-                    {siteData.woodProjects.map((project) => {
-                        return (
-                            <ImageListItem key={project.title}>
-                                <img
-                                    alt={project.caption}
-                                    title={project.title}
-                                    src={project.src}
-                                />
-                            </ImageListItem>
-                        );
-                    })}
-                </ImageList>
-                {/* <div className={styles["project-box"]}>
-                    {siteData.woodProjects.map((project) => (
-                        <div
-                            key={project.title}
-                            className={styles["image-wrapper"]}
-                        >
-                            <a
-                                href={project.src}
-                                className={styles["wood-image-link"]}
-                            >
-                                <img
-                                    src={project.src}
-                                    title={project.title}
-                                    caption={project.caption}
-                                    height={project.height}
-                                    width={project.width}
-                                    srl_gallery_image="true"
-                                    alt={project.caption}
-                                    className={styles["wood-image"]}
-                                />
-                            </a>
-                        </div>
-                    ))}
-                </div> */}
+                {oneColBreakpoint ? (
+                    <div className={`${styles["gallery-grid"]}`}>
+                        {projects.map((project) => renderGalleryImage(project))}
+                    </div>
+                ) : (
+                    <div className={`${styles["gallery-grid"]}`}>
+                        {templateRows.map(
+                            ({ startIndex, endIndex, gridTemplateColumns }) =>
+                                renderGalleryRow(
+                                    projects,
+                                    startIndex,
+                                    endIndex,
+                                    gridTemplateColumns
+                                )
+                        )}
+                    </div>
+                )}
             </SRLWrapper>
         </Page>
     );
 }
-/*
-<div className={styles["project-box"]}>
-    {siteData.woodProjects.map((project) => (
-        <WoodProject
-            {...project}
-            key={project.title}
-            className={styles["wood-project"]}
-        />
-    ))}
-</div>
-*/

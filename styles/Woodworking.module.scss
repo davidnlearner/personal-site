@@ -1,23 +1,52 @@
 @import "./settings.scss";
 
-.project-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-evenly;
-    width: 90%;
-    grid-gap: 5px;
+$grid-col-spacing: 2rem;
+$grid-row-spacing: 3rem;
+
+.gallery-grid {
+    display: flex;
+    flex-direction: column;
+    gap: $grid-row-spacing;
+    max-width: min(1225px, 85%);
     margin: auto;
 }
 
-.image-wrapper {
+.gallery-row {
+    display: grid;
+    grid-gap: $grid-col-spacing;
+}
+
+.gallery-image {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; //if proportions are off it crops instead of squeezing
+}
+
+.photo-caption {
+    width: 100%;
     text-align: center;
 }
 
-.wood-project {
-    width: 33%;
+.caption-text {
+    color: $text-main;
+    font-size: $font-xs;
+    display: inline-block;
+    text-align: left;
 }
 
-.project-box :nth-child(5n + 4),
-.project-box :nth-child(5n + 0) {
-    width: 50%;
+@media only screen and (max-width: $mobile-breakpoint) {
+    .gallery-grid {
+        max-width: 70%;
+    }
+
+    .caption-text {
+        font-size: $font-sm;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .gallery-grid {
+        max-width: 75%;
+    }
 }

@@ -10,10 +10,10 @@
 }
 
 .title {
-    margin: 0;
+    margin: 1rem 0 4rem;
     line-height: 1.15;
-    font-size: $font-xl;
-    margin-bottom: 2rem;
+    font-size: $font-xxl;
+    font-weight: 550;
 }
 
 .title,
@@ -33,4 +33,10 @@
     font-size: 1.1rem;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
         DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+@media only screen and (max-width: $mobile-breakpoint) {
+    .title {
+        font-size: $font-xl;
+    }
 }
