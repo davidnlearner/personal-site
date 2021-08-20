@@ -1,5 +1,8 @@
 @import "./settings.scss";
 
+html {
+    overflow-y: scroll;
+}
 html,
 body {
     padding: 0;
