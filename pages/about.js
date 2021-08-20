@@ -6,13 +6,11 @@ import profilePic from "../public/profile-pic1.jpg";
 
 export default function About() {
     const bioText =
-        "Hi, I'm David Learner. I'm a Chicagoan with a background in woodworking, " +
-        "and computer programming. I have over three years of experience creating fine wood tables " +
-        "and bowls using a variety of different woods and techniques, including programming a CNC " +
-        "and digitally modeling my projects. My passion for creating solutions for complex challenges " +
-        "has led me to learning a variety of new skills, including programming in Python, Java, and JavaScript. " +
-        "I'm looking for a full-time computer programming position where I can continue to pursue my desire to learn " +
-        "and expand my skills.";
+        "I'm a Chicagoan seeking an entry level software engineering role." +
+        "I recently graduated from the Tech Elevator bootcamp." +
+        "During the bootcamp, I formalized my programming skills " +
+        "and learned full-stack Java web development. I’ve programmed in Java, Python, and Javascript " +
+        "during the program and have worked on side projects using Node.js, Vue, and React.";
 
     return (
         <Page title="About">
