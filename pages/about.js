@@ -6,8 +6,8 @@ import profilePic from "../public/profile-pic1.jpg";
 
 export default function About() {
     const bioText =
-        "I'm a Chicagoan seeking an entry level software engineering role." +
-        "I recently graduated from the Tech Elevator bootcamp." +
+        "I'm a Chicagoan seeking an entry level software engineering role. " +
+        "I recently graduated from the Tech Elevator bootcamp. " +
         "During the bootcamp, I formalized my programming skills " +
         "and learned full-stack Java web development. I’ve programmed in Java, Python, and Javascript " +
         "during the program and have worked on side projects using Node.js, Vue, and React.";
