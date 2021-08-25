@@ -1,3 +1,3 @@
 # Portfolio Site
 
-Portfolio site built using React/Next.js. Work in progress. Live link is here: https://porfolio-site-dnl.vercel.app/
+Portfolio site built using React/Next.js and styled using SCSS. Live link is here: https://david-learner.com
