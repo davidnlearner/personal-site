@@ -4,14 +4,21 @@
             "imageSrc": "/data/project-images/codenames.jpg",
             "title": "Codenames",
             "description": "An online multiplayer version of the board game Codenames, built with Node.js/Express.js on the backend, a MongoDB database and HTML, CSS, and Javascript on the frontend.",
-            "projectURL": "http://dlearner-codenames.herokuapp.com/",
+            "projectURL": "http://codenames.david-learner.com/",
             "githubURL": "https://github.com/davidnlearner/codenames"
+        },
+        {
+            "imageSrc": "/data/project-images/te-gram.jpg",
+            "title": "TE-Gram",
+            "description": "Photo sharing website based off Instagram, using HTML/CSS/JavaScript and Vue.js on the client-side and Java with Spring Boot for the server-side with PostgreSQL for the database.",
+            "projectURL": "https://te-gram.david-learner.com/",
+            "githubURL": "https://github.com/davidnlearner/te-gram"
         },
         {
             "imageSrc": "/data/project-images/fractal.jpg",
             "title": "Fractal Generator",
             "description": "A webapp that draws fractals, which users can manipulate through various attributes. Programmed with Javascript, HTML Canvas, and React.js.",
-            "projectURL": "https://fractal-visualizer.vercel.app/",
+            "projectURL": "https://fractal-visualizer.david-learner.com/",
             "githubURL": "https://github.com/davidnlearner/fractal-visualizer"
         },
         {
