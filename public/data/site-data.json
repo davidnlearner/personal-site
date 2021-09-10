@@ -27,13 +27,6 @@
             "description": "2D platforming game built using React and the Phaser3 library.",
             "projectURL": "http://avalanche.david-learner.com/",
             "githubURL": "https://github.com/davidnlearner/avalanche"
-        },
-        {
-            "imageSrc": "/data/project-images/weatherApp.jpg",
-            "title": "Weather App",
-            "description": "Basic Weather App made using Node.js/Express.js and using data from the WeatherStack and Mapbox APIs.",
-            "projectURL": "https://dlearner-weather-application.herokuapp.com/",
-            "githubURL": "https://github.com/davidnlearner/node-course-weather-app"
         }
     ],
     "woodProjects": [
