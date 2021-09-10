@@ -22,6 +22,13 @@
             "githubURL": "https://github.com/davidnlearner/fractal-visualizer"
         },
         {
+            "imageSrc": "/data/project-images/avalanche.jpg",
+            "title": "Avalanche",
+            "description": "2D platforming game built using React and the Phaser3 library.",
+            "projectURL": "http://avalanche.david-learner.com/",
+            "githubURL": "https://github.com/davidnlearner/avalanche"
+        },
+        {
             "imageSrc": "/data/project-images/weatherApp.jpg",
             "title": "Weather App",
             "description": "Basic Weather App made using Node.js/Express.js and using data from the WeatherStack and Mapbox APIs.",
