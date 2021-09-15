@@ -22,7 +22,7 @@
             "githubURL": "https://github.com/davidnlearner/fractal-visualizer"
         },
         {
-            "imageSrc": "/data/project-images/avalanche.jpg",
+            "imageSrc": "/data/project-images/avalanche.png",
             "title": "Avalanche",
             "description": "2D platforming game built using React and the Phaser3 library.",
             "projectURL": "http://avalanche.david-learner.com/",
