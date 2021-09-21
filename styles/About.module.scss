@@ -6,25 +6,33 @@
 }
 
 .profile-pic {
-    max-width: 25rem;
+    max-width: 15rem;
     max-height: auto;
     margin: auto;
+}
+
+.profile-pic img {
+    border-radius: 5px;
 }
 
 .bio-text {
     color: $text-main;
     font-size: $font-md;
-    margin: 1rem;
     padding: 1rem;
     border-radius: 20px;
     line-height: 1.5;
     max-width: 37rem;
+    margin: 1rem;
 }
 
 //small screen breakpoint
 @media only screen and (max-width: 1120px) {
     .profile-layout {
         flex-direction: column;
+    }
+
+    .bio-text {
+        margin: auto;
     }
 }
 

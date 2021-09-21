@@ -9,7 +9,7 @@
         },
         {
             "imageSrc": "/data/project-images/te-gram.jpg",
-            "title": "TE-Gram",
+            "title": "Instagram Clone",
             "description": "Photo sharing website based off Instagram, using HTML/CSS/JavaScript and Vue.js on the client-side and Java with Spring Boot for the server-side with PostgreSQL for the database.",
             "projectURL": "https://te-gram.david-learner.com/login?username=user&password=password",
             "githubURL": "https://github.com/davidnlearner/te-gram"

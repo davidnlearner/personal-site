@@ -1,4 +1,4 @@
-import About from "./about";
+import Projects from "./projects";
 export default function Home() {
-    return <About></About>;
+    return <Projects></Projects>;
 }

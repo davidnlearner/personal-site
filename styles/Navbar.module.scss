@@ -6,9 +6,7 @@
     justify-content: space-between;
     top: 0;
     width: 100%;
-    border-bottom: 1px solid darken($background-darker, 50%);
-    padding: 1rem 1.5rem;
-    //background-color: $background-darker;
+    padding: 1.5rem 1.5rem;
 }
 
 .home-link,
@@ -29,7 +27,7 @@
 
 .link:hover,
 .active-link {
-    color: $text-main;
+    color: $text-highlight;
 }
 
 .link-box {

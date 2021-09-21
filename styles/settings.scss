@@ -1,8 +1,8 @@
 /* Colors */
 
-$text-main: hsla(355, 18%, 12%, 1);
+$text-main: black;
 $text-highlight: rgb(136, 119, 122);
-$background: rgb(235, 221, 213);
+$background: rgb(240, 240, 240);
 $background-dark: darken($background, 5%);
 $background-darker: darken($background, 15%);
 
@@ -20,7 +20,7 @@ $font-xxl: 4rem;
 $font-xl: 3rem;
 $font-lg: 1.5rem;
 $font-md: 1.2rem;
-$font-sm: 1rem;
+$font-sm: 1.1rem;
 $font-xs: 0.9rem;
 
 /* Mobile */

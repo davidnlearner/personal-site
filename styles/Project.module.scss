@@ -1,38 +1,61 @@
 @import "./settings.scss";
 
-.project-wrapper {
+.projects-container {
     display: grid;
+    width: 80%;
+    max-width: 1200px;
+    gap: 2rem;
+    margin: auto;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-        "title ."
-        "image description";
-    padding: 0 10% 2rem;
 }
 
-/*
-.projects-container .project-wrapper:nth-child(odd) {
-    background-color: $background-dark;
+.project-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
-*/
+
+.title-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.project-tile {
+    position: relative;
+    width: 100%;
+}
 
 .image-wrapper {
-    grid-area: image;
     width: 100%;
     cursor: pointer;
+    position: relative;
 }
 
 .image-title {
-    grid-area: title;
     font-size: $font-lg;
+    display: inline;
+    margin: 0 1rem 0.5rem 0;
 }
 
 .image-description-box {
-    grid-area: description;
+    z-index: 10;
+    transition: 1s;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     padding: 1rem;
+    color: white;
+    background-color: rgba($color: #000000, $alpha: 0.75);
+}
+
+.image-description-box:hover {
+    opacity: 1;
 }
 
 .image-description {
-    margin: 0 0.5rem 1rem;
+    margin: auto;
     line-height: 1.5;
     border-radius: 10px;
     font-size: $font-md;
@@ -45,16 +68,29 @@
 }
 
 @media only screen and (max-width: $mobile-breakpoint) {
+    .projects-container {
+        width: 85%;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
     .project-wrapper {
         grid-template-columns: 1fr;
-        grid-template-areas:
-            "title"
-            "image"
-            "description";
+    }
+
+    .image-title {
+        margin: 0 0.5rem 1rem 0;
     }
 
     .image-description-box {
+        transition: unset;
+        opacity: unset;
+        position: relative;
+        width: 100%;
+        height: 100%;
         padding: 0;
+        color: $text-main;
+        background-color: unset;
     }
 
     .image-description {
@@ -65,5 +101,10 @@
     .social-icon-box {
         width: 100%;
         text-align: center;
+    }
+
+    .image-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }

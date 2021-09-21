@@ -9,7 +9,7 @@ export default function About() {
         "I'm a Chicagoan seeking an entry level software engineering role. " +
         "I recently graduated from the Tech Elevator bootcamp. " +
         "During the bootcamp, I formalized my programming skills " +
-        "and learned full-stack Java web development. I’ve programmed in Java, Python, and Javascript " +
+        "and learned full-stack Java web development. I’ve used Java, Python, and Javascript " +
         "during the program and have worked on side projects using Node.js, Vue, and React.";
 
     return (
