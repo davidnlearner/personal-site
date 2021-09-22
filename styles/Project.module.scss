@@ -18,9 +18,16 @@
 .title-wrapper {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    margin: 0 auto 0.5rem auto;
+    gap: 0.5rem;
+    align-items: center;
 }
 
+.image-title {
+    font-size: $font-lg;
+    display: inline;
+    margin: 0;
+}
 .project-tile {
     position: relative;
     width: 100%;
@@ -30,12 +37,6 @@
     width: 100%;
     cursor: pointer;
     position: relative;
-}
-
-.image-title {
-    font-size: $font-lg;
-    display: inline;
-    margin: 0 1rem 0.5rem 0;
 }
 
 .image-description-box {
