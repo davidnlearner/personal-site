@@ -51,8 +51,10 @@ export default function Woodworking() {
     //Must be changed if adding more projects
     const templateRows = [
         { startIndex: 0, endIndex: 2, gridTemplateColumns: "6fr 10fr" },
-        { startIndex: 2, endIndex: 5, gridTemplateColumns: "4fr 4fr 6fr" },
-        { startIndex: 5, endIndex: 8, gridTemplateColumns: "6fr 3fr 4fr" },
+        { startIndex: 2, endIndex: 5, gridTemplateColumns: "6fr 6fr 5fr" },
+        { startIndex: 5, endIndex: 7, gridTemplateColumns: "10fr 6fr" },
+        { startIndex: 7, endIndex: 9, gridTemplateColumns: "6fr 6fr" },
+
     ];
 
     return (

@@ -1,6 +1,13 @@
 {
     "codeProjects": [
         {
+            "imageSrc": "/data/project-images/smoke-mapping.jpg",
+            "title": "Smoke Mapping",
+            "description": "Visualization of air quality data from ____.  Made with React utilizing Mapbox API.",
+            "projectURL": "http://smoke-mapping.david-learner.com/",
+            "githubURL": "https://github.com/davidnlearner/smoke-mapping.git"
+        },
+        {
             "imageSrc": "/data/project-images/codenames.jpg",
             "title": "Codenames",
             "description": "An online multiplayer version of the board game Codenames, built with Node.js/Express.js on the backend, a MongoDB database and HTML, CSS, and Javascript on the frontend.",
@@ -45,9 +52,16 @@
             "rows": 3
         },
         {
-            "title": "Bedside Table",
-            "src": "/data/woodworking-images/bedsidetable.jpg",
-            "caption": "Cherry Bedside Table",
+            "title": "Greene and Greene Bedside Table",
+            "src": "/data/woodworking-images/greenandgreen.jpg",
+            "caption": "African Mahogony Greene and Greene Bedside Table with Ebony Inlays",
+            "cols": 3,
+            "rows": 4
+        },
+        {
+            "title": "Bowls",
+            "src": "/data/woodworking-images/bowls.jpg",
+            "caption": "Cherry, Walnut, and Ash bowls",
             "cols": 3,
             "rows": 2
         },
@@ -58,19 +72,10 @@
             "cols": 2,
             "rows": 2
         },
-
         {
             "title": "Bench",
             "src": "/data/woodworking-images/bench.jpg",
             "caption": "White Oak Park Bench",
-            "cols": 3,
-            "rows": 2
-        },
-
-        {
-            "title": "Bowls",
-            "src": "/data/woodworking-images/bowls.jpg",
-            "caption": "Cherry, Walnut, and Ash bowls",
             "cols": 3,
             "rows": 2
         },
@@ -81,7 +86,13 @@
             "cols": 3,
             "rows": 4
         },
-
+        {
+            "title": "Bedside Table",
+            "src": "/data/woodworking-images/bedsidetable.jpg",
+            "caption": "Cherry Bedside Table",
+            "cols": 3,
+            "rows": 2
+        },
         {
             "title": "Side Table 2",
             "src": "/data/woodworking-images/sidetable2.jpg",
