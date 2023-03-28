@@ -1,9 +1,9 @@
 {
     "codeProjects": [
         {
-            "imageSrc": "/data/project-images/smoke-mapping.jpg",
+            "imageSrc": "/data/project-images/smoke-mapping.png",
             "title": "Smoke Mapping",
-            "description": "Visualization of air quality data from ____.  Made with React utilizing Mapbox API.",
+            "description": "Visualization of modeled wildfire-driven smoke pollution, by county.  Made with React utilizing Mapbox API.",
             "projectURL": "http://smoke-mapping.david-learner.com/",
             "githubURL": "https://github.com/davidnlearner/smoke-mapping.git"
         },
